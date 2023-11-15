@@ -1,0 +1,47 @@
+/* תוספים ועיצוב לדף המוצג */
+.container-fluid{
+    text-align: right; 
+}
+header{
+    min-height: 100px; 
+    padding: 20px;
+}
+.container-fluid-row{
+    background: lightskyblue;
+    min-height: 700px;
+    margin:0;
+    display: flex;
+    justify-content: center;
+   
+   
+    
+}
+
+
+.row div{
+    background-color: white;
+    min-height: 300px;
+    padding: 30px;
+    -webkit-box-shadow:-1px 9px 12px 0px #707070 ;
+    -moz-box-shadow:-1px 9px 12px 0px #707070 ;
+    box-shadow:-1px 9px 12px 0px #707070 ;
+}
+.row  .weather{
+    float: left;
+}
+.row  table{
+ 
+    float: right;
+    font-size: 20px;
+}
+
+table td{
+    padding: 10px;
+}
+table .temp{
+    font-size: 30px;
+}
+table .temp img{
+    width: 30px;
+}
+
